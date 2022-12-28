@@ -1,0 +1,31 @@
+.special__list{
+    display: flex;
+    gap: 30px;
+}
+
+.special__title{
+    padding-top: 10px;
+    width: 270px;
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.special__text{
+    margin-top: 10px;
+    color:var(--little-color);
+    width: 270px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.special__icon{
+    @include centeredFlex(flex);
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--bg-color-team);
+}

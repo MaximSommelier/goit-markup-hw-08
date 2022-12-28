@@ -1,0 +1,37 @@
+.header-portfolio{
+    border-bottom: 1px solid var(--portfolio-border);
+}
+
+.contacts-list{
+    display: flex;
+    align-items: center;
+}  
+
+ .contacts{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+ }
+
+.contacts-link{
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--little-color);
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 0.02em;
+    transition: color var(--timing-function);
+
+    &:hover,
+    &:focus{
+    color: var(--second-color);
+    }
+}
+
+.header-icon{
+    fill: currentColor;
+}
