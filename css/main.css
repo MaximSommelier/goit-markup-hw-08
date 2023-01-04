@@ -887,8 +887,9 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  .special__list {
-    gap: 30px;
+  .special__card {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
   }
   .special__icon,
 .special__text,

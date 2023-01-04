@@ -53,11 +53,11 @@
 }
 
 @media screen and (min-width: 1200px){
-    .special__list{
-        flex-direction: ;
-        gap: 30px;
+    
+    .special__card{
+        flex-basis: calc(100% / 4);
     }
-
+    
     .special__icon,
     .special__text,
     .special__title{
