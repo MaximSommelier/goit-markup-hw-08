@@ -888,9 +888,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .special__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     gap: 30px;
   }
   .special__icon,
