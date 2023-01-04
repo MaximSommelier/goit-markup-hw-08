@@ -36,7 +36,21 @@
     }
 }
 
+@media screen and (min-width: 768px){
+    .special__list{
+      display: flex;
+      flex-wrap: wrap;  
+    }
+    .special__card{
+        flex-basis: 50%;
+    }
 
+    .special__icon,
+    .special__text,
+    .special__title{
+        width: 354px;
+    }
+}
 
 @media screen and (min-width: 1200px){
     .special__list{

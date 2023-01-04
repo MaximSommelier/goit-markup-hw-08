@@ -868,6 +868,24 @@ img {
     background-color: var(--bg-color-team);
   }
 }
+@media screen and (min-width: 768px) {
+  .special__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .special__card {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .special__icon,
+.special__text,
+.special__title {
+    width: 354px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .special__list {
     display: -webkit-box;
