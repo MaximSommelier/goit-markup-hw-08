@@ -835,7 +835,6 @@ img {
     margin-bottom: 30px;
   }
   .special__title {
-    text-align: center;
     padding-top: 10px;
     width: 270px;
     color: var(--main-color);
