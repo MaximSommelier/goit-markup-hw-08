@@ -42,7 +42,7 @@
       flex-wrap: wrap;  
     }
     .special__card{
-        flex-basis: 50%;
+        flex-basis: calc(100% / 2);
     }
 
     .special__icon,
