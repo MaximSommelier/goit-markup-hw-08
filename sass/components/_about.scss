@@ -1,9 +1,9 @@
 .about-section{
     @media screen and (max-width: 1199px){
-        visibility: hidden;
+        display: none;
     }
     @media screen and (min-width: 1200px){
-        visibility: visible;
+        display: block;
     }
     padding-top: 0px;
 }
