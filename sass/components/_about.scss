@@ -1,5 +1,10 @@
-// @media screen and (max-width: 1199px){
 .about-section{
+    @media screen and (max-width: 1199px){
+        visibility: hidden;
+    }
+    @media screen and (min-width: 1200px){
+        visibility: visible;
+    }
     padding-top: 0px;
 }
 
@@ -35,8 +40,3 @@
     line-height: 1.14;
     text-transform: uppercase; 
 }
-
-
-// @media screen and (min-width: 1200px){
-//     
-// }
