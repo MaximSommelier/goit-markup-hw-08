@@ -842,6 +842,7 @@ img {
     margin-bottom: 30px;
   }
   .special__title {
+    text-align: center;
     padding-top: 10px;
     width: 270px;
     color: var(--main-color);
@@ -886,6 +887,9 @@ img {
   .special__card {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+  }
+  .special__title {
+    text-align: left;
   }
   .special__icon,
 .special__text,
