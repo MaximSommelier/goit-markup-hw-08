@@ -14,7 +14,6 @@
     @media screen and (min-width: 768px){
         display: flex;
         flex-wrap: wrap;
-        margin: -15px;
        }
     }
     
@@ -23,12 +22,12 @@
         margin-bottom: 30px;
         
     @media screen and (min-width: 768px){
-        width: calc ((100% - 60px / 2));
+        flex-basis: calc((100% - 60px) / 2);
         margin: 15px;
         }
 
     @media screen and (min-width: 1200px){
-        width: calc ((100% - 120px / 4)); 
+        flex-basis: calc((100% - 120px) / 4); 
     }
 }
     
