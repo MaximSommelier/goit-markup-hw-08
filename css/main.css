@@ -1023,10 +1023,18 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 30px;
+  }
+  .list-team__card {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
   }
 }
 @media screen and (min-width: 480px) and (min-width: 1200px) {
+  .list-team__card {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    gap: 30px;
+  }
   .socials__links {
     -webkit-transition: background-color var(--timing-function);
     transition: background-color var(--timing-function);

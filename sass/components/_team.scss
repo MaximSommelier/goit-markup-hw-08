@@ -62,12 +62,20 @@
     .list-team{
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        // gap: 30px;
     }
 
+    .list-team__card{
+        flex-basis: calc(100% / 2);
+    }
 }
 
 @media screen and (min-width: 1200px){
+    .list-team__card{
+        flex-basis: calc(100% / 4);
+        gap: 30px;
+    }
+
     .socials__links{
         transition: background-color var(--timing-function);
     
