@@ -1090,14 +1090,15 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .client {
+  margin: 15px;
   -ms-flex-preferred-size: calc((100% - 30px) / 2);
       flex-basis: calc((100% - 30px) / 2);
-}
-.client:not(:last-child) {
-  margin-right: 30px;
 }
 @media screen and (min-width: 768px) {
   .client {
@@ -1107,8 +1108,8 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .client {
-    -ms-flex-preferred-size: calc((100% - 90px) / 6);
-        flex-basis: calc((100% - 90px) / 6);
+    -ms-flex-preferred-size: calc((100% - 180px) / 6);
+        flex-basis: calc((100% - 180px) / 6);
   }
 }
 
