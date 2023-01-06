@@ -995,8 +995,12 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .list-team__card {
-    -ms-flex-preferred-size: calc((100% - 120px) / 4);
-        flex-basis: calc((100% - 120px) / 4);
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+    margin: 0%;
+  }
+  .list-team__card:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
@@ -1107,8 +1111,12 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .client {
-    -ms-flex-preferred-size: calc((100% - 100px) / 6);
-        flex-basis: calc((100% - 100px) / 6);
+    -ms-flex-preferred-size: calc((100% - 150px) / 6);
+        flex-basis: calc((100% - 150px) / 6);
+    margin: 0%;
+  }
+  .client:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
