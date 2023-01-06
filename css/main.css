@@ -1096,7 +1096,7 @@ img {
 }
 
 .client {
-  margin: 15px;
+  margin-bottom: 30px;
   -ms-flex-preferred-size: calc((100% - 30px) / 2);
       flex-basis: calc((100% - 30px) / 2);
 }
@@ -1108,8 +1108,8 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .client {
-    -ms-flex-preferred-size: calc((100% - 180px) / 6);
-        flex-basis: calc((100% - 180px) / 6);
+    -ms-flex-preferred-size: calc((100% - 100px) / 6);
+        flex-basis: calc((100% - 100px) / 6);
   }
 }
 
