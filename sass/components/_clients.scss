@@ -2,9 +2,24 @@
     text-align: center;
     margin-bottom: 50px;
 }
+
 .clients{
     @include centeredFlex(flex);
-    gap: 30px;
+}
+
+.client{
+    flex-basis: calc((100% - 30px) / 2);
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+
+    @media screen and (min-width: 768px){
+        flex-basis: calc((100% - 90px) / 3);
+    }
+
+    @media screen and (min-width: 1200px){
+        flex-basis: calc((100% - 90px) / 6);
+    }
 }
 
 .client-link{
