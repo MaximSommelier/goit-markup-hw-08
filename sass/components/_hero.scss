@@ -1,27 +1,70 @@
 .hero{
-    max-width: 1600px;
-    height: 600px;
     margin: 0 auto;
     background-color:var(--just-color);
-    background-image: linear-gradient(to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)),
-    url(../images/main-section.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 480px;
+    height: 400px;
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(/images/hero_phone.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
+    
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+      .hero {
+        background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(/images/hero_phone@2x.jpg)
+        }
+        }
+
+    @media screen and (min-width: 768px){
+        max-width: 768px;
+        height: 400px;
+        background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(/images/hero_tablet.jpg);
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+      .hero {
+        background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(/images/hero_tablet@2x.jpg)
+        }
+        }
+
+    @media screen and (min-width: 1200px){
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(/images/hero_desktop.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
-}
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(to right,
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
-url(/images/main-section@2x.jpg)
-  }
+    url(/images/hero_desktop@2x.jpg)
+    }
+    }
 }
 
 .hero__title{
