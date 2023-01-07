@@ -1346,6 +1346,7 @@ img {
 }
 
 .right-footer {
+  margin-left: auto;
   display: block;
 }
 
@@ -1367,10 +1368,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-}
-
-.right-footer {
-  margin-left: auto;
 }
 
 .socials-links-footer {
