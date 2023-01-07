@@ -6,6 +6,10 @@
 .clients{
     @include centeredFlex(flex);
     flex-wrap: wrap;
+
+    @media screen and (min-width: 768px){
+        margin: -30px;
+    }
 }
 
 .client{
@@ -18,7 +22,7 @@
     }
 
     @media screen and (min-width: 1200px){
-        flex-basis: calc((100% - 150px) / 6); 
+        flex-basis: calc((100% - 160px) / 6); 
         margin: 0%;
         &:not(:last-child){
             margin-right: 30px;
