@@ -1156,6 +1156,7 @@ img {
     margin: -15px;
   }
 }
+
 .client {
   margin: 15px;
   -ms-flex-preferred-size: calc((100% - 60px) / 2);
