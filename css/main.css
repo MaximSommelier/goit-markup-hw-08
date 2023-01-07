@@ -1102,6 +1102,11 @@ img {
     margin: -30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .clients {
+    margin: 0%;
+  }
+}
 
 .client {
   margin-bottom: 30px;
