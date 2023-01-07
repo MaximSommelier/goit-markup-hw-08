@@ -1,16 +1,16 @@
-@media screen and (min-width: 480px){
-    .special__list{
+.special__list{
         display: block;
     }
     
-    .special__card{
+.special__card{
         width: 100%;
         margin-bottom: 30px;
     }
     
-    .special__title{
+.special__title{
         text-align: center;
         padding-top: 10px;
+        margin:auto;
         width: 270px;
         color: var(--main-color);
         font-weight: 700;
@@ -19,7 +19,7 @@
         text-transform: uppercase;
     }
     
-    .special__text{
+.special__text{
         margin-top: 10px;
         color:var(--little-color);
         width: 100%;
@@ -27,7 +27,7 @@
         font-size: 14px;
         line-height: 1.71;
     }
-    .special__icon{
+.special__icon{
         @include centeredFlex(flex);
         margin-bottom: 30px;
         width: 100%;
@@ -35,7 +35,7 @@
         border-radius: 4px;
         background-color: var(--bg-color-team);
     }
-}
+
 
 @media screen and (min-width: 768px){
     .special__list{
@@ -47,6 +47,7 @@
     }
 
     .special__title{
+        margin: 0%;
         text-align: left;
     }
 
