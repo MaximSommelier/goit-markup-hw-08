@@ -41,9 +41,10 @@
     .special__list{
       display: flex;
       flex-wrap: wrap;  
+      gap: 30px;
     }
     .special__card{
-        flex-basis: calc(100% / 2);
+        flex-basis: calc((100% - 60px) / 2);
     }
 
     .special__title{
@@ -61,7 +62,7 @@
 @media screen and (min-width: 1200px){
     
     .special__card{
-        flex-basis: calc(100% / 4);
+        flex-basis: calc((100% - 240px) / 4);
     }
     
     .special__icon,

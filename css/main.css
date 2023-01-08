@@ -949,10 +949,11 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    gap: 30px;
   }
   .special__card {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
   }
   .special__title {
     margin: 0%;
@@ -966,8 +967,8 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .special__card {
-    -ms-flex-preferred-size: 25%;
-        flex-basis: 25%;
+    -ms-flex-preferred-size: calc((100% - 240px) / 4);
+        flex-basis: calc((100% - 240px) / 4);
   }
   .special__icon,
 .special__text,
