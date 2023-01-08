@@ -274,13 +274,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-.title {
-  color: var(--main-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  line-height: 1.16;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -629,6 +622,19 @@ img {
     opacity: 1;
   }
 }
+.title {
+  color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.16;
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 28px;
+    line-height: 1.17;
+  }
+}
+
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
