@@ -629,11 +629,9 @@ img {
     opacity: 1;
   }
 }
-@media screen and (max-width: 1199px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .section {
