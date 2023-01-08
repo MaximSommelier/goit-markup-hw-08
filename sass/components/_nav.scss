@@ -8,13 +8,16 @@
     align-items: center;
 }
 .nav-list{
-    display: none;
-    // display: flex;
-    // margin-left: 93px;
+    display: flex;
+    margin-left: 93px;
 
-    // & :not(:first-child) {
-    //     margin-left: 50px;
-    // }
+    & :not(:first-child) {
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 767px){
+        display: none;
+    }
 }
 
 .nav-list__link{
