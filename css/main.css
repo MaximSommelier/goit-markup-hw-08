@@ -790,9 +790,7 @@ img {
 }
 
 .contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -800,6 +798,13 @@ img {
 @media screen and (max-width: 767px) {
   .contacts-list {
     display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -811,8 +816,13 @@ img {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
-  padding-bottom: 32px;
-  padding-top: 32px;
+  padding: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .contacts {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
 }
 
 .contacts-link {

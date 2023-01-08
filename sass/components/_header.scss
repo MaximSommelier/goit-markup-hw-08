@@ -6,10 +6,13 @@
 }
 
 .contacts-list{
-    display: flex;
+    display: block;
     align-items: center;
     @media screen and (max-width: 767px){
         display: none;
+    }
+    @media screen and (min-width: 1200px){
+        display: flex;
     }
 }  
 
@@ -17,8 +20,14 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    // padding-bottom: 21px;
+    // padding-top: 21px;
+    padding: 10px;
+
+    @media screen and (min-width: 1200px){
     padding-bottom: 32px;
     padding-top: 32px;
+    }
  }
 
 .contacts-link{
