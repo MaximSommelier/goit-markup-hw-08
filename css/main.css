@@ -627,6 +627,7 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 @media screen and (min-width: 1200px) {
   .title {
