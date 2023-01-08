@@ -1,5 +1,6 @@
-.header-portfolio{
-    border-bottom: 1px solid var(--portfolio-border);
+.header-main{
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .contacts-list{
@@ -35,4 +36,8 @@
 
 .header-icon{
     fill: currentColor;
+}
+
+.header-portfolio{
+    border-bottom: 1px solid var(--portfolio-border);
 }
