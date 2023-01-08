@@ -4,7 +4,10 @@
     
     .section-team__title{
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        @media screen and (min-width: 1200px){
+            margin-bottom: 50px;
+        }
     }
     
     .list-team{
