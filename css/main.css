@@ -828,14 +828,20 @@ img {
 .contacts-link {
   margin-left: 50px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.16;
   color: var(--little-color);
   text-decoration: none;
   list-style-type: none;
   letter-spacing: 0.02em;
   -webkit-transition: color var(--timing-function);
   transition: color var(--timing-function);
+}
+@media screen and (min-width: 1200px) {
+  .contacts-link {
+    font-size: 14px;
+    line-height: 1.16;
+  }
 }
 .contacts-link:hover, .contacts-link:focus {
   color: var(--second-color);

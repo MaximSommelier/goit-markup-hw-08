@@ -20,8 +20,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    // padding-bottom: 21px;
-    // padding-top: 21px;
     padding: 10px;
 
     @media screen and (min-width: 1200px){
@@ -33,13 +31,18 @@
 .contacts-link{
     margin-left: 50px;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.16;
     color: var(--little-color);
     text-decoration: none;
     list-style-type: none;
     letter-spacing: 0.02em;
     transition: color var(--timing-function);
+
+    @media screen and (min-width: 1200px){
+        font-size: 14px;
+        line-height: 1.16;
+    }
 
     &:hover,
     &:focus{
