@@ -1,3 +1,11 @@
+.container-footer{
+    display: block;
+
+    @media screen and (min-width: 768px){
+        display: flex;
+    }
+}
+
 .footer{
     background: var(--just-color);
     text-decoration: none;
@@ -6,6 +14,9 @@
     padding-bottom: 60px;
 }
 
+.left-footer{
+    margin-right: 70px;
+}
 .footer-links:not(:last-child){
     margin-bottom: 9px;
 }
@@ -50,10 +61,6 @@ letter-spacing: 0.03em;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
-.container-footer{
-    display: flex;
-}
-.left-footer{
-    margin-right: 70px;
-}
+
+
 

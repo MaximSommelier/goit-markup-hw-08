@@ -558,7 +558,9 @@ img {
 }
 
 /* =====FOOTER===== */
-
+.container-footer{
+    display: flex;
+}
 .footer{
     background: var(--just-color);
     text-decoration: none;
@@ -611,9 +613,7 @@ letter-spacing: 0.03em;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
-.container-footer{
-    display: flex;
-}
+
 .left-footer{
     margin-right: 70px;
 }

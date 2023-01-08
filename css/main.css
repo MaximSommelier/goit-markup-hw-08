@@ -1546,12 +1546,27 @@ img {
   letter-spacing: 0.03em;
 }
 
+.container-footer {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .container-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .footer {
   background: var(--just-color);
   text-decoration: none;
   letter-spacing: 0.03em;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.left-footer {
+  margin-right: 70px;
 }
 
 .footer-links:not(:last-child) {
@@ -1598,16 +1613,6 @@ img {
   line-height: 1.71;
   text-decoration: none;
   letter-spacing: 0.03em;
-}
-
-.container-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.left-footer {
-  margin-right: 70px;
 }
 
 .right-footer {
