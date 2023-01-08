@@ -674,12 +674,7 @@ img {
 }
 
 .contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: none;
 }
 
 .contacts {
@@ -718,10 +713,16 @@ img {
   font-family: "Raleway", sans-serif;
   color: var(--second-color);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
   text-decoration: none;
   letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .logo-link {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo-header {
@@ -752,13 +753,7 @@ img {
 }
 
 .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 93px;
-}
-.nav-list :not(:first-child) {
-  margin-left: 50px;
+  display: none;
 }
 
 .nav-list__link {
