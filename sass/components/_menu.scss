@@ -66,6 +66,14 @@
   }
 }
 
+.menu-toggle-icon{
+  fill: var(--main-color);
+
+    &:focus,
+    &:hover{
+    fill: var(--second-color);
+    }
+}
 .mobile-menu {
   padding: 0;
   margin: 0;
