@@ -763,7 +763,7 @@ img {
 }
 
 .menu-toggle-icon {
-  fill: var(--main-color);
+  fill: currentColor;
 }
 .menu-toggle-icon:focus, .menu-toggle-icon:hover {
   fill: var(--second-color);
