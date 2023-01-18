@@ -101,15 +101,10 @@
 
   &:hover,
   :focus {
-  text-decoration: underline;
-  }
-  
-  
-  &.current{
     color: var(--second-color);
   }
 }
-// ==============
+
   
   .mobile-contacts{
     display: flex;

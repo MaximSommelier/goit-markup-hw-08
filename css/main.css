@@ -793,9 +793,6 @@ img {
 }
 .mobile-menu_link:hover,
 .mobile-menu_link :focus {
-  text-decoration: underline;
-}
-.mobile-menu_link.current {
   color: var(--second-color);
 }
 
