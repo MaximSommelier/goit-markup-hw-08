@@ -48,15 +48,14 @@
 }
 
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
-  // display: flex;
   display: inline-flex;
   position: absolute;
   top: 10px;
   right: 15px;
   align-items: center;
   justify-content: center;
+  min-height: 40px;
+  min-width: 40px;
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -78,6 +77,7 @@
     fill: var(--second-color);
     }
 }
+
 .mobile-menu {
   padding: 0;
   margin: 0;
@@ -109,8 +109,7 @@
   }
 }
 
-  
-  .mobile-contacts{
+.mobile-contacts{
     display: flex;
     flex-direction: column;
     text-decoration: none;
