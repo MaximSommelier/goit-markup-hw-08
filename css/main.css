@@ -696,13 +696,11 @@ img {
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
-
 .menu-container.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
-
-.menu-container .menu-toggle {
+.menu-container.menu-toggle {
   position: absolute;
   top: 16px;
   right: 16px;
