@@ -781,8 +781,9 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 32px;
   text-decoration: none;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
   padding-left: 25px;
 }
 
@@ -791,7 +792,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--second-color);
-  margin-bottom: 32px;
 }
 
 .mobile-contacts_link {
@@ -800,7 +800,6 @@ img {
   line-height: 1.16;
   letter-spacing: 0.02em;
   color: var(--little-color);
-  margin-bottom: 64px;
 }
 
 .mobile-socials {
