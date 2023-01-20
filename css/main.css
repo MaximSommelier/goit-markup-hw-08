@@ -1561,10 +1561,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.container-footer {
-  display: block;
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .container-footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1580,16 +1577,22 @@ img {
   padding-bottom: 60px;
 }
 
-.left-footer {
-  margin-right: 70px;
+@media screen and (min-width: 1200px) {
+  .left-footer {
+    margin-right: 70px;
+  }
 }
 
-.footer-links:not(:last-child) {
-  margin-bottom: 9px;
+@media screen and (min-width: 1200px) {
+  .footer-links:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
-.footer-links:first-child {
-  margin-top: 20px;
+@media screen and (min-width: 1200px) {
+  .footer-links:first-child {
+    margin-top: 20px;
+  }
 }
 
 .footer-link {
@@ -1635,6 +1638,15 @@ img {
   display: block;
 }
 
+.footer-title {
+  padding-top: 10px;
+  color: var(--third-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
 .socials-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1644,15 +1656,6 @@ img {
           align-items: center;
   margin-top: 20px;
   gap: 10px;
-}
-
-.footer-title {
-  padding-top: 10px;
-  color: var(--third-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 .socials-links-footer {
@@ -1680,22 +1683,26 @@ img {
   fill: var(--third-color);
 }
 
-.subscribe-footer {
-  margin-left: 93px;
+@media screen and (min-width: 1200px) {
+  .subscribe-footer {
+    margin-left: 93px;
+  }
 }
 
-.subscribe_form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 20px;
-  gap: 12px;
+@media screen and (min-width: 1200px) {
+  .subscribe_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+    gap: 12px;
+  }
 }
 
 .subscribe-field {

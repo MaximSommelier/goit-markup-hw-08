@@ -1,7 +1,5 @@
 .container-footer{
-    display: block;
-
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 1200px){
         display: flex;
     }
 }
@@ -15,13 +13,19 @@
 }
 
 .left-footer{
+    @media screen and (min-width: 1200px){
     margin-right: 70px;
+    }
 }
 .footer-links:not(:last-child){
+    @media screen and (min-width: 1200px){
     margin-bottom: 9px;
+    }
 }
 .footer-links:first-child{
+    @media screen and (min-width: 1200px){
     margin-top: 20px;
+    }
 }
 
 .footer-link{

@@ -1,11 +1,15 @@
 .subscribe-footer{
-    margin-left: 93px;
+    // @media screen and (min-width: 768px){}
+    @media screen and (min-width: 1200px){
+        margin-left: 93px;
+    }
 }
 
 .subscribe_form{
+    @media screen and (min-width: 1200px){
     @include centeredFlex(flex);
     margin-top: 20px;
-    gap: 12px;
+    gap: 12px;}
 }
 .subscribe-field{
     display: flex;
