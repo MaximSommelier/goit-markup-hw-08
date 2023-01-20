@@ -1,4 +1,8 @@
 .container-footer{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
     @media screen and (min-width: 1200px){
         display: flex;
     }
@@ -13,22 +17,24 @@
 }
 
 .left-footer{
+    align-items: center;
+    justify-content: center;
     @media screen and (min-width: 1200px){
     margin-right: 70px;
     }
 }
-.footer-links:not(:last-child){
+.adress-list-items:not(:last-child){
     @media screen and (min-width: 1200px){
     margin-bottom: 9px;
     }
 }
-.footer-links:first-child{
+.adress-list-items:first-child{
     @media screen and (min-width: 1200px){
     margin-top: 20px;
     }
 }
 
-.footer-link{
+.footer-logo{
     font-family: 'Raleway',sans-serif;
     color: var(--second-color);
     font-style: normal;
