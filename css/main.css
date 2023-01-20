@@ -816,6 +816,11 @@ img {
   gap: 20px;
 }
 
+.mobile-socials_item:not(:last-child) {
+  border-right: 1px;
+  background-color: black;
+}
+
 .mobile-socials_link {
   font-weight: 500;
   font-size: 18px;
