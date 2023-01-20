@@ -104,6 +104,11 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  margin-bottom: 306px;
+}
+
+.mobile-menu_item ::not(:last-child){
+  margin-bottom: 32px;
 }
   
 .mobile-menu_link {
