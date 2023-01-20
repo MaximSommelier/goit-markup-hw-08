@@ -16,16 +16,16 @@
 
 <body class="body">
   <!-- ======HEADER===== -->
-    <header class="header-portfolio">
+    <header class="header-main header-portfolio">
       <div class="container-navi container">
         <nav class="site-navs">
           <a class="logo-link" href="/index.html">Web<span class="logo-header">Studio</span></a>
           <ul class="nav-list list">
             <li>
-              <a class="nav-list__link nav-chapter" href="index.html">Студія</a>
+              <a class="nav-list__link nav-chapter current" href="index.html">Студія</a>
             </li>
             <li>
-              <a class="nav-list__link nav-chapter current" href="portfolio.html">Портфоліо</a>
+              <a class="nav-list__link nav-chapter" href="portfolio.html">Портфоліо</a>
             </li>
             <li>
               <a class="nav-list__link nav-chapter" href="#">Контакти</a>
@@ -34,14 +34,14 @@
         </nav>
         <ul class="contacts-list list">
           <li>
-            <a class="contacts-link contacts" href="mailto:info@devstudio.com">
+            <a class="contacts-link" href="mailto:info@devstudio.com">
               <svg class="header-icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope">
                 </use>
               </svg>info@devstudio.com</a>
           </li>
           <li>
-            <a class="contacts-link contacts" href="tel:+380961111111">
+            <a class="contacts-link" href="tel:+380961111111">
               <svg class="header-icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone">
                 </use>
@@ -49,8 +49,18 @@
               +38 096 111 11 11</a>
           </li>
         </ul>
+        <!-- ===menu button=== -->
+        <button
+        class="menu-toggle js-open-menu" type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        >
+        <svg class="menu-toggle-icon" width="40" height="40">
+          <use href="./images/icons.svg#menu"></use>
+        </svg>
+      </button>
       </div>
-       </header> 
+    </header>
    
         <main>
     <section class="section">
@@ -183,18 +193,18 @@
     <!-- =====FOOTER===== -->
     
     <footer class="footer">
-      <div class="container container-footer">
+      <div class="container-footer container">
         <div class="left-footer">
-        <a class="footer-link" href="/index.html">Web<span class="logo-footer">Studio</span></a>
+        <a class="footer-logo" href="/index.html">Web<span class="logo-footer">Studio</span></a>
         <address class="address">
-          <ul class="list">
-            <li class="footer-links">
+          <ul class="adress-list list">
+            <li class="adress-list-items">
               <p class="address1">м.Київ, пр-т Лесі Українки, 26</p>
             </li>
-            <li class="footer-links">
+            <li class="adress-list-items">
               <a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="footer-links">
+            <li class="adress-list-items">
               <a class="contacts-footer" href="tel:+380961111111">+380961111111</a>
             </li>
           </ul>
@@ -204,7 +214,7 @@
         <h3 class="footer-title">приєднуйтесь</h3>
         <ul class="socials-footer list">
           <li class="socials-items-footer">
-            <a class="socials-links-footer link" href="https://instagram.com" target="_blank" rel="noopener noreferer"
+            <a class="socials-links-footer link" href="https://instagram.com/" target="_blank" rel="noopener noreferer"
               aria-label="Instagram icon">
               <svg class="socials-icon-footer" width="20" height="20">
                 <use href="./images/icons.svg#icon-instagram">
@@ -239,7 +249,7 @@
               </svg>
             </a>
           </li>
-        </ul>
+         </ul>
       </div>
       <div class="subscribe-footer">
         <h3 class="footer-title">підпишіться на розсилку</h3>
@@ -254,9 +264,59 @@
             </use>
           </svg>
           </button>
-        </form>
+         </form>
       </div>
-    </div>
-      </footer>
+     </div>
+    </footer>
+    
+    <!-- ===MOBILE MENU=== -->
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg class="menu-toggle-icon" width="40" height="40">
+        <use href="./images/icons.svg#menu_close"></use>
+      </svg>
+    </button>
+
+    <ul class="mobile-menu">
+      <li class="mobile-menu_item">
+        <a class="mobile-menu_link link" href="index.html">Студія</a>
+      </li>
+      <li class="mobile-menu_item">
+        <a class="mobile-menu_link link" href="portfolio.html">Портфоліо</a>
+      </li>
+      <li class="mobile-menu_item">
+        <a class="mobile-menu_link link" href="#">Контакти</a>
+      </li>
+    </ul>
+    <ul class="mobile-contacts list">
+      <li class="mobile-contacts_item">
+        <a class="mobile-contacts_link1 link" href="#">+38 096 111 11 11</a></li>
+      <li class="mobile-contacts_item">
+        <a class="mobile-contacts_link link" href="#">info@devstudio.com</a></li>
+    </ul>
+
+    <ul class="mobile-socials list">
+      <li class="mobile-socials_item">
+        <a class="mobile-socials_link link" href="https://instagram.com/">Instagram</a></li>
+      <li class="mobile-socials_item">
+        <a class="mobile-socials_link link" href="https://twitter.com/">Twitter</a></li>
+      <li class="mobile-socials_item">
+        <a class="mobile-socials_link link" href="https://facebook.com/">Facebook</a></li>
+      <li class="mobile-socials_item">
+        <a class="mobile-socials_link link" href="https://linkedin.com/">LinkedIn</a></li>
+    </ul>
+  </div>
+
+   <!-- ===SCRIPTS=== -->
+   <!-- -menu script- -->
+   <script
+   defer
+   src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+   integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+   crossorigin="anonymous"
+ ></script>
+ <script defer src="./JS/mobile-menu.js"></script>
+   <!-- -modal script- -->
+  <script src="./JS/modal.js"></script>
     </body>
 </html>
