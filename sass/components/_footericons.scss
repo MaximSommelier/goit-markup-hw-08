@@ -1,6 +1,8 @@
 .right-footer{
-    margin-left: auto;
-    display: block;
+    // margin-left: auto;
+    // display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-title{

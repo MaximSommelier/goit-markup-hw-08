@@ -1561,11 +1561,29 @@ img {
   letter-spacing: 0.03em;
 }
 
+.container-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 60px;
+}
 @media screen and (min-width: 1200px) {
   .container-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -1588,18 +1606,11 @@ img {
 @media screen and (min-width: 1200px) {
   .left-footer {
     margin-right: 70px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .adress-list-items:not(:last-child) {
-    margin-bottom: 9px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .adress-list-items:first-child {
-    margin-top: 20px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
@@ -1618,6 +1629,27 @@ img {
   font-family: "Raleway", sans-serif;
   color: var(--third-color);
   letter-spacing: 0.03em;
+}
+
+.adress-list {
+  gap: 12px;
+}
+
+@media screen and (min-width: 480px) {
+  .adress-list-items:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .adress-list-items:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .adress-list-items:first-child {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
 }
 
 .contacts-footer {
@@ -1642,8 +1674,13 @@ img {
 }
 
 .right-footer {
-  margin-left: auto;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer-title {
