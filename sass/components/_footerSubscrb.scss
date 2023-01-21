@@ -1,12 +1,9 @@
 .subscribe-footer{
+    @include centeredFlex(flex);
+    flex-direction: column;
     
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
-    // @media screen and (min-width: 768px){}
     @media screen and (min-width: 1200px){
-        margin-left: 93px;
+    align-items: flex-start;
     }
 }
 
@@ -17,7 +14,7 @@
     margin-top: 20px;
 
     @media screen and (min-width: 1200px){
-    margin-top: 20px;
+    flex-direction: row;
     gap: 12px;}
 
 }
@@ -47,9 +44,6 @@
     @media screen and (min-width: 768px){
         width: 358px;
     }
-    // @media screen and (min-width: 1200px){
-        
-    // }
 }
 
 .subscribe-button{
