@@ -899,8 +899,24 @@ img {
   color: var(--second-color);
 }
 
-.header-icon {
+.header-icon1 {
   fill: currentColor;
+}
+@media screen and (min-width: 1200px) {
+  .header-icon1 {
+    width: 16px;
+    height: 12px;
+  }
+}
+
+.header-icon2 {
+  fill: currentColor;
+}
+@media screen and (min-width: 1200px) {
+  .header-icon2 {
+    width: 10px;
+    height: 16px;
+  }
 }
 
 .header-portfolio {
