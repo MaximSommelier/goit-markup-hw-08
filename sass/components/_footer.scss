@@ -31,6 +31,7 @@
     align-items: center;
     text-align: center;
     gap: 60px;
+    
     @media screen and (min-width: 768px){
         flex-direction: row;
         justify-content: space-between;
