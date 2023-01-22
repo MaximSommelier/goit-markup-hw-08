@@ -38,7 +38,7 @@
 
 .client-link{
     @include centeredFlex(flex);
-    width: 170px;
+    width: 226px;
     height: 90px;
     background-color: var(--third-color);  
     border: 1px solid var(--icons-color); 
@@ -54,6 +54,10 @@
     &:focus .icon-client,
     &:hover .icon-client{
     fill: var(--second-color);
+    }
+
+    @media screen and (min-width: 1200px){
+        width: 170px;
     }
 }
 
