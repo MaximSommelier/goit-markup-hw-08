@@ -65,8 +65,8 @@
 .hero__title{
     display: block;
     margin: auto;
-    padding-bottom: 30px;
-    width: 360px;
+    margin-bottom: 30px;
+    width: 300px;
     text-align: center;
     color: var(--third-color);
     text-transform: uppercase;
@@ -74,6 +74,10 @@
     font-size: 26px;
     line-height: 1.61;
     letter-spacing: 0.06em;
+
+    @media screen and (min-width: 480px){
+        width: 360px;
+    }
 
     @media screen and (min-width: 1200px){
         width: 696px;

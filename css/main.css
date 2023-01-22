@@ -1078,8 +1078,8 @@ img {
 .hero__title {
   display: block;
   margin: auto;
-  padding-bottom: 30px;
-  width: 360px;
+  margin-bottom: 30px;
+  width: 300px;
   text-align: center;
   color: var(--third-color);
   text-transform: uppercase;
@@ -1087,6 +1087,11 @@ img {
   font-size: 26px;
   line-height: 1.61;
   letter-spacing: 0.06em;
+}
+@media screen and (min-width: 480px) {
+  .hero__title {
+    width: 360px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
@@ -1307,7 +1312,7 @@ img {
   .list-team__card {
     -ms-flex-preferred-size: calc((100% - 90px) / 4);
         flex-basis: calc((100% - 90px) / 4);
-    margin: 0%;
+    margin: 0;
   }
   .list-team__card:not(:last-child) {
     margin-right: 30px;
