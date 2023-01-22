@@ -44,10 +44,10 @@
       display: flex;
       flex-wrap: wrap;  
       gap: 30px;
+      margin-bottom: 0;
     }
     .special__card{
         flex-basis: calc((100% - 60px) / 2);
-        margin-bottom: 0px;
     }
 
     .special__title{
