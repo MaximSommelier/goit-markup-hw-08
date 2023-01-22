@@ -10,24 +10,9 @@
     @include centeredFlex(flex);
     flex-wrap: wrap;
     gap: 30px;
-    
-    
-    // @media screen and (min-width: 768px){
-    //     margin: -15px;
-    // }
 }
 
 .client{
-    // margin: 15px;
-    // flex-basis: calc((100% - 60px) / 2);
-    
-    // @media screen and (min-width: 768px){
-    //     flex-basis: calc((100% - 90px) / 3);
-    // }
-
-    // @media screen and (min-width: 1200px){
-    //     flex-basis: calc((100% - 180px) / 6); 
-    // }
     @media screen and (max-width: 767px){
         flex-basis: calc((100% - 60px) / 2);
     }
