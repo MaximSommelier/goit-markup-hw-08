@@ -1314,6 +1314,9 @@ img {
         flex-basis: calc((100% - 90px) / 4);
     margin: 0;
   }
+  .list-team__card:last-child {
+    margin-bottom: 30px;
+  }
   .list-team__card:not(:last-child) {
     margin-right: 30px;
   }
